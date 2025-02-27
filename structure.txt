@@ -1,0 +1,15 @@
+cold-email-generator/
+├── app.py                 # Main application file
+├── .env                   # Environment variables
+├── requirements.txt       # Dependencies
+├── setup.py               # Setup script
+├── data/                  # Data files
+│   └── my_portfolio.csv   # Sample portfolio data
+├── modules/               # Modular code components
+│   ├── __init__.py        # Makes modules a package
+│   ├── config.py          # Configuration module
+│   ├── llm_setup.py       # LLM configuration
+│   ├── job_extractor.py   # Job data extraction
+│   ├── vector_db.py       # Vector database operations
+│   └── email_generator.py # Email generation
+└── vectorstore/           # ChromaDB storage directory
